@@ -1,4 +1,8 @@
-# 💼 AdrienITTS's Documentation 💼
+<p align="center">
+    <img src="docs/.vuepress/public/images/logo-full-200x200.png" alt="adrienitts logo" width="200" height="200">
+</p>
+
+# 💼 AdrienITTS's Documentation
 
 [![Static Badge](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 ![Static Badge](https://img.shields.io/badge/version-0.0.1-orange)
@@ -9,7 +13,7 @@
 [![Static Badge](https://img.shields.io/badge/SEMVER-1.0.0-yellow)](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ## 📖 Table of Contents
-- [💼 AdrienITTS's Documentation 💼](#-adrienittss-documentation-)
+- [💼 AdrienITTS's Documentation](#-adrienittss-documentation-)
     - [💡 Introduction](#-introduction)
     - [📖 Table of Contents](#-table-of-contents)
     - [🪛 Installation](#-installation)
