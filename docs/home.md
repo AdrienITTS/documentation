@@ -1,6 +1,7 @@
 ---
 home: true
 title: Home
+permalink: /
 heroImage: /images/logo-light-full-200x200.png
 heroImageDark: /images/logo-full-200x200.png
 actions:

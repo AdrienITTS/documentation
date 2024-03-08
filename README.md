@@ -1,5 +1,10 @@
 # AdrienITTS's Documentation
 
+[![Static Badge](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+![Static Badge](https://img.shields.io/badge/version-0.0.1-orange)
+[![Static Badge](https://img.shields.io/badge/node-v20.11.1-blue)](https://nodejs.org/docs/latest-v20.x/api/index.html)
+[![Static Badge](https://img.shields.io/badge/npm-10.2.4-lightblue)](https://docs.npmjs.com/)
+
 This repository stands as a documentation aggregator for @AdrienITTS projects and studies. 
 
 It is a project that aims to provide a simple and easy to use documentation and record keeping for all the projects and studies that I have done.
