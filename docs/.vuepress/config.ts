@@ -5,15 +5,20 @@ import { viteBundler } from '@vuepress/bundler-vite'
 export default defineUserConfig({
   lang: 'en-US',
 
-  title: 'VuePress',
+  title: 'AdrienITTS Documentation',
 
-  description: 'My first VuePress Site',
+  description: 'Basic VuePress site to centralize and share knowledge about IT',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logoDark: '/images/logo-200x200.png',
+    logo: '/images/logo-light-200x200.png',
 
     navbar: ['/', '/get-started'],
   }),
 
+  head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
+
   bundler: viteBundler(),
 })
+
+

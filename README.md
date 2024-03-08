@@ -1,6 +1,6 @@
 # AdrienITTS's Documentation
 
-This repository stands as a documentation aggregator for @adrienitts projects and studies. 
+This repository stands as a documentation aggregator for @AdrienITTS projects and studies. 
 
 It is a project that aims to provide a simple and easy to use documentation and record keeping for all the projects and studies that I have done.
 
