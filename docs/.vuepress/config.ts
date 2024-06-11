@@ -7,7 +7,7 @@ export default defineUserConfig({
 
   title: 'AdrienITTS Documentation',
 
-  description: 'Basic VuePress site to centralize and share knowledge about IT',
+  description: 'Basic VuePress site to centralize and share my knowledge about IT',
 
   theme: defaultTheme({
     logoDark: '/images/logo-1.svg',
