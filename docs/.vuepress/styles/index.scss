@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
+  --font-family: "Montserrat", sans-serif !IMPORTANT;
+
   // brand colors
-  --c-brand: #ea2845;
-  --c-brand-light: #f13b57;
+  --c-brand: rgb(239 148 196);
+  --c-brand-light: rgb(247 210 201);
 
   // background colors
   --c-bg: #ffffff;
@@ -28,8 +32,8 @@
 
 html.dark {
   // brand colors
-  --c-brand: #ea2845;
-  --c-brand-light: #f13b57;
+  --c-brand: rgb(239 148 196);
+  --c-brand-light: rgb(247 210 201);
 
   // background colors
   --c-bg: #22272e;

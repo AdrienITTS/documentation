@@ -2,8 +2,8 @@
 home: true
 title: Home
 permalink: /
-heroImage: /images/logo-light-full-200x200.png
-heroImageDark: /images/logo-full-200x200.png
+heroImage: /images/logo-5.svg
+heroImageDark: /images/logo-5.svg
 actions:
   - text: Get Started
     link: /getting-started.html

@@ -10,13 +10,13 @@ export default defineUserConfig({
   description: 'Basic VuePress site to centralize and share knowledge about IT',
 
   theme: defaultTheme({
-    logoDark: '/images/logo-200x200.png',
-    logo: '/images/logo-light-200x200.png',
+    logoDark: '/images/logo-1.svg',
+    logo: '/images/logo-1.svg',
 
     navbar: ['/', '/get-started'],
   }),
 
-  head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/images/logo-1.svg' }]],
 
   bundler: viteBundler(),
 })
