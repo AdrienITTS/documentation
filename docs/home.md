@@ -5,31 +5,37 @@ permalink: /
 heroImage: /images/logo-5.svg
 heroImageDark: /images/logo-5.svg
 actions:
-  - text: Get Started
-    link: /getting-started.html
-    type: primary
-
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
+  - text: Who am I ?
+    link: /who
     type: secondary
 
-features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - text: Documentation
+    link: /documentation/
+    type: primary
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+features:
+  - title: Keep track of my progress
+    details: I will be documenting my progress on my projects and sharing my thoughts on various topics.
+  - title: Programming
+    details: Learn about programming languages, frameworks, and tools that I use in my projects.
+  - title: Conception and Design
+    details: Discover how I design and develop my projects from conception to completion.
+  - title: Frontend Development
+    details: From HTML, CSS, and JavaScript to modern frameworks like Vue.js and Angular.
+  - title: Backend Development
+    details: A look at server-side technologies like Node.js, Express, and databases like PostgreSQL and MongoDB.
+  - title: DevOps
+    details: Monitoring, deployment, and automation tools that I use to manage my projects.
+
+footer: MIT Licensed | Copyright © 2023-present
 ---
 
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
+Made with [VuePress][vuepress-link] - 
+Hosted on [Render][render-link] - 
+Versioned with [GitHub][github-link] - 
+Monitored on [Betterstack][betterstack-link]
 
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
+[vuepress-link]: https://v2.vuepress.vuejs.org/
+[render-link]: https://render.com/
+[github-link]: https://github.com/
+[betterstack-link]: https://betterstack.com/

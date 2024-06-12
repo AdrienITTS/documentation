@@ -7,13 +7,13 @@ export default defineUserConfig({
 
   title: 'AdrienITTS Documentation',
 
-  description: 'Basic VuePress site to centralize and share my knowledge about IT',
+  description: 'Website to centralize and share my knowledge about IT',
 
   theme: defaultTheme({
     logoDark: '/images/logo-1.svg',
     logo: '/images/logo-1.svg',
 
-    navbar: ['/', '/get-started'],
+    navbar: ['/', '/who', '/documentation/'],
   }),
 
   head: [['link', { rel: 'icon', href: '/images/logo-1.svg' }]],
