@@ -30,10 +30,12 @@ features:
 footer: MIT Licensed | Copyright © 2023-present
 ---
 
-Made with [VuePress][vuepress-link] - 
-Hosted on [Render][render-link] - 
-Versioned with [GitHub][github-link] - 
+::: center
+Made with [VuePress][vuepress-link] \
+Hosted on [Render][render-link] \
+Versioned with [GitHub][github-link] \
 Monitored on [Betterstack][betterstack-link]
+:::
 
 [vuepress-link]: https://v2.vuepress.vuejs.org/
 [render-link]: https://render.com/

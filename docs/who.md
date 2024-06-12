@@ -1,6 +1,7 @@
 ---
 title: Who Am I ?
 permalink: /who
+sidebar: 'heading'
 ---
 
 # Who Am I ?
