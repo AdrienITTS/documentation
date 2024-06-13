@@ -1,1 +1,30 @@
 // place your custom styles here
+@use "sass:map";
+@import 'palette.scss';
+
+:root[data-theme=light] {
+  .vp-portfolio:not(.bg)::after  {
+    background: linear-gradient(90deg, rgba($theme-color, .9) 0%, rgba($theme-color-light, .9) 100%);
+  }
+
+  .vp-portfolio:not(.bg)  {
+    background: white;
+  }
+}
+
+:root[data-theme=dark] {
+  .vp-portfolio:not(.bg){
+    background: linear-gradient(90deg, rgba($theme-color, .7) 0%, rgba($theme-color-light, .7) 100%);
+  }
+
+  .vp-portfolio:not(.bg)::after  {
+    background: rgba($theme-color-dark, 1);
+  }
+}
+
+ .stop1 {
+   stop-color: rgb(226, 32, 63);
+ }
+.stop2 {
+  stop-color: rgb(76, 43, 168);
+}

@@ -4,18 +4,13 @@
       <stop class="stop1" offset="0%" />
       <stop class="stop2" offset="100%" />
     </linearGradient>
-    <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0%" stop-color="red" />
-      <stop offset="50%" stop-color="black" stop-opacity="0" />
-      <stop offset="100%" stop-color="blue" />
-    </linearGradient>
   </defs>
   <style>
     .stop1 {
-      stop-color: rgb(239 148 196);
+    stop-color: rgb(226, 32, 63);
     }
     .stop2 {
-      stop-color: rgb(247 210 201);
+    stop-color: rgb(76, 43, 168);
     }
   </style>
 <path d="m90 14h-80c-0.55078 0-1 0.44922-1 1v70c0 0.55469 0.44922 1 1 1h80c0.55469 0 1-0.44531 1-1v-70c0-0.55078-0.44531-1-1-1zm-79 2h78v13h-78zm78 68h-78v-53h78z"></path>

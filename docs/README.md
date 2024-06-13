@@ -282,10 +282,10 @@ highlights:
   - header: Advanced
     description: Advanced features to improve site SEO and user experience
     image: /assets/images/bulb.svg
-    bgImage: /assets/backgrounds/bg-line-pattern.png
-    bgImageDark: /assets/backgrounds/bg-line-pattern-dark.png
+    bgImage: /assets/backgrounds/bg-banner.png
+    bgImageDark: /assets/backgrounds/bg-banner-dark.png
     bgImageStyle:
-      background-attachment: fixed
+      background-repeat: repeat
     highlights:
       - title: SEO Enhancement
         icon: dumbbell
