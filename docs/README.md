@@ -3,8 +3,6 @@ home: true
 icon: home
 title: Home
 heroImage: /logo.svg
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: Adrien Deprez
@@ -25,8 +23,8 @@ actions:
 highlights:
   - header: Easy to install
     image: /assets/images/rocket.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
+    bgImage: /assets/backgrounds/bg-square-pattern.jpg
+    bgImageDark: /assets/backgrounds/bg-square-pattern-dark.jpg
     highlights:
       - title: Run <code>pnpm create vuepress-theme-hope hope-project</code> to create a new project with this theme.
       - title: Run <code>pnpm create vuepress-theme-hope add .</code> in your project root to create a new project with this theme.
@@ -34,11 +32,8 @@ highlights:
   - header: Add things you want in markdown
     description: We extended the standard commonMark specification and added tons of new features for you.
     image: /assets/images/user.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
     bgImageStyle:
       background-repeat: repeat
-      background-size: initial
     features:
       - title: Links Check
         icon: clipboard-check
@@ -178,8 +173,8 @@ highlights:
   - header: Customizable UI
     description: Customizable outlook with full a11y support.
     image: /assets/images/network.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
+    bgImage: /assets/backgrounds/bg-rainbow.png
+    bgImageDark: /assets/backgrounds/bg-rainbow-dark.png
     highlights:
       - title: Dark Mode
         icon: circle-half-stroke
@@ -199,8 +194,6 @@ highlights:
   - header: Improved layouts
     description: An awesome responsive layout
     image: /assets/images/command.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
       - title: Navbar
         icon: window-maximize
@@ -224,8 +217,8 @@ highlights:
 
   - header: New features
     image: /assets/images/hexa.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
+    bgImage: /assets/backgrounds/bg-triangle-pattern.jpg
+    bgImageDark: /assets/backgrounds/bg-triangle-pattern-dark.jpg
     features:
       - title: Catalog Page
         icon: network-wired
@@ -265,8 +258,6 @@ highlights:
   - header: Blogging
     description: Create personal blog with theme
     image: /assets/images/computer.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
       - title: Blog features
         icon: blog
@@ -291,8 +282,10 @@ highlights:
   - header: Advanced
     description: Advanced features to improve site SEO and user experience
     image: /assets/images/bulb.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
+    bgImage: /assets/backgrounds/bg-line-pattern.png
+    bgImageDark: /assets/backgrounds/bg-line-pattern-dark.png
+    bgImageStyle:
+      background-attachment: fixed
     highlights:
       - title: SEO Enhancement
         icon: dumbbell

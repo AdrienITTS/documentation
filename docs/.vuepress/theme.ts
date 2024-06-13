@@ -9,7 +9,6 @@ export default hopeTheme({
     name: "Mr.Hope",
     url: "https://mister-hope.com",
   },
-
   favicon: "/logo.svg",
 
   iconAssets: "fontawesome-with-brands",
