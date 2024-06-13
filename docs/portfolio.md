@@ -2,7 +2,7 @@
 home: true
 portfolio: true
 title: Portfolio Home
-icon: home
+icon: user
 name: Adrien Deprez
 avatar: 'https://avatars.githubusercontent.com/u/23341059'
 avatarStyle: 'align-self: center; border-radius: 100px; max-height: 40vh;'
