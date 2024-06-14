@@ -5,11 +5,11 @@
 # 💼 AdrienITTS's Documentation
 
 [![Static Badge](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-![Static Badge](https://img.shields.io/badge/version-0.0.1-orange)
-[![Static Badge](https://img.shields.io/badge/node-v20.11.1-blue)](https://nodejs.org/docs/latest-v20.x/api/index.html)
-[![Static Badge](https://img.shields.io/badge/npm-10.2.4-lightblue)](https://docs.npmjs.com/)
+![Static Badge](https://img.shields.io/badge/version-0.1.0-orange)
+[![Static Badge](https://img.shields.io/badge/node-v20.14.0-blue)](https://nodejs.org/docs/latest-v20.x/api/index.html)
+[![Static Badge](https://img.shields.io/badge/npm-10.7.0-lightblue)](https://docs.npmjs.com/)
 [![Static Badge](https://img.shields.io/badge/vuepress-2.0.0-blueviolet)](https://vuepress.vuejs.org/)
-[![Static Badge](https://img.shields.io/badge/vue-3.4.0-brightgreen)](https://v3.vuejs.org/)
+[![Static Badge](https://img.shields.io/badge/vue-3.4.29-brightgreen)](https://v3.vuejs.org/)
 [![Static Badge](https://img.shields.io/badge/SEMVER-1.0.0-yellow)](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ## 📖 Table of Contents

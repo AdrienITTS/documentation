@@ -12,22 +12,36 @@ actions:
     icon: user
     link: portfolio
       
-  - text: How to Use
-    icon: lightbulb
+  - text: Documentation
+    icon: book
     link: ./demo/
     type: primary
 
-  - text: Docs
-    link: ./guide/
-
 highlights:
-  - header: Easy to install
+  - header: What's in this site ?
     image: /assets/images/rocket.svg
     bgImage: /assets/backgrounds/bg-square-pattern.jpg
     bgImageDark: /assets/backgrounds/bg-square-pattern-dark.jpg
     highlights:
-      - title: Run <code>pnpm create vuepress-theme-hope hope-project</code> to create a new project with this theme.
-      - title: Run <code>pnpm create vuepress-theme-hope add .</code> in your project root to create a new project with this theme.
+    - title: My portfolio
+      icon: user
+      details: A presentation of my career, my skills, and my projects
+      
+    - title: How-to guides
+      icon: fa-solid fa-wand-magic-sparkles
+      details: Guides and tutorials on problems I have encountered and solved
+
+    - title: Projects
+      icon: fa-solid fa-file-pen
+      details: Examples of projects I have worked on
+
+    - title: Reflections and thoughts
+      icon: fa-solid fa-brain
+      details: My thoughts on the world of IT and the future of technology
+      
+    - title: Benchmarks
+      icon: fa-solid fa-chart-simple
+      details: Benchmarks and comparisons of different technologies
 
   - header: Languages and Frameworks
     description: A list of the languages and frameworks I have experience with that I might talk about.
@@ -54,7 +68,7 @@ highlights:
         icon: fa-solid fa-feather
         details: Build automation tool used primarily for Java projects
         link: https://maven.apache.org/
-        
+
       - title: HTML
         icon: fa-brands fa-html5
         details: Standard markup language for documents designed to be displayed in a web browser
@@ -64,7 +78,7 @@ highlights:
         icon: fa-brands fa-css3-alt
         details: Style sheet language used for describing the presentation of a document written in HTML
         link: https://developer.mozilla.org/fr/docs/Web/CSS
-        
+
       - title: Javascript
         icon: fa-brands fa-js
         details: High-level, interpreted programming language for the web
@@ -149,7 +163,7 @@ highlights:
         icon: fa-brands fa-docker
         details: Set of platform as a service products that use OS-level virtualization to deliver software in packages called containers
         link: https://www.docker.com/
-        
+
       - title: Kubernetes
         icon: fa-solid fa-ship
         details: Open-source container-orchestration system for automating computer application deployment, scaling, and management
@@ -165,151 +179,143 @@ highlights:
         details: Infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services
         link: https://www.terraform.io/
 
-  - header: Customizable UI
-    description: Customizable outlook with full a11y support.
+
+  - header: Full stack developer
+    description: Yeah. I know. A full stack. Again? But I promise it's the real deal.
     image: /assets/images/network.svg
     bgImage: /assets/backgrounds/bg-rainbow.png
     bgImageDark: /assets/backgrounds/bg-rainbow-dark.png
     highlights:
-      - title: Dark Mode
-        icon: circle-half-stroke
-        details: Switch between light and dark modes freely
-        link: https://theme-hope.vuejs.press/guide/interface/darkmode.html
+      - title: Conception
+        icon: fa-solid fa-compass-drafting
+        details: Designing and architecting applications and systems
+        
+      - title: Backend
+        icon: gear
+        details: Building and running APIs, microservices, and server-side applications
 
-      - title: Customizable Theme Color
+      - title: Frontend
         icon: palette
-        details: Set theme color with the brand color and even a picker
-        link: https://theme-hope.vuejs.press/guide/interface/theme-color.html
+        details: Creating user interfaces and user experiences on the web
 
-      - title: More
-        icon: ellipsis
-        details: RTL layout, print support, fullscreen button, etc.
-        link: https://theme-hope.vuejs.press/guide/interface/others.html
+      - title: Ops
+        icon: wrench
+        details: Managing infrastructure, deployments, and monitoring
 
-  - header: Improved layouts
-    description: An awesome responsive layout
+      - title: Teaching
+        icon: comment-dots
+        details: Sharing knowledge and helping others grow
+
+  - header: Projects
+    description: Some of my favorite projects
     image: /assets/images/command.svg
     highlights:
-      - title: Navbar
-        icon: window-maximize
-        details: Fully customizable navbar with improved mobile support
-        link: https://theme-hope.vuejs.press/guide/layout/navbar.html
+      - title: Documentation
+        icon: fa-solid fa-book
+        details: A documentation site for my projects and guides
+        link: https://github.com/AdrienITTS/documentation
 
-      - title: Sidebar
-        icon: fas fa-window-maximize fa-rotate-270
-        details: Generate sidebar based on page headings and file structure
-        link: https://theme-hope.vuejs.press/guide/layout/sidebar.html
+      - title: DailyHelper
+        icon: hand
+        details: COMING SOON
+        link: https://github.com/AdrienITTS
 
-      - title: Slide Page
-        icon: person-chalkboard
-        details: Adding slide pages to display things you like
-        link: https://theme-hope.vuejs.press/guide/layout/slides.html
+      - title: Techradar
+        icon: fa-solid fa-circle-nodes
+        details: COMING SOON
+        link: https://github.com/AdrienITTS
 
-      - title: Other Layout Improvement
-        icon: object-group
-        details: Improved page nav and new breadcrumb, footer and toc. We also bring you a brand new homepage.
-        link: https://theme-hope.vuejs.press/guide/layout/
-
-  - header: New features
+  - header: My current goals
     image: /assets/images/hexa.svg
     bgImage: /assets/backgrounds/bg-triangle-pattern.jpg
     bgImageDark: /assets/backgrounds/bg-triangle-pattern-dark.jpg
     features:
-      - title: Catalog Page
-        icon: network-wired
-        details: Auto generating catalog page and out of box catalog component
-        link: https://theme-hope.vuejs.press/guide/feature/catalog.html
-
-      - title: Pageviews and Comments
+      - title: Sharing knowledge
         icon: comment-dots
-        details: Pageview statistics and comment support with 4 comment service
-        link: https://theme-hope.vuejs.press/guide/feature/comment.html
+        details: Partake in the development of the dev community and becoming a better pedagogue
 
-      - title: Article Information
+      - title: Automatization and workflow
+        icon: network-wired
+        details: Finely automate my workflows and make my life easier
+
+      - title: Operate an application
         icon: circle-info
-        details: Add author, writing date, reading time, word count and other information to your article
-        link: https://theme-hope.vuejs.press/guide/feature/page-info.html
+        details: Operate and exploit an application perfectly with tooling and best practices
 
-      - title: Article Encryption
+      - title: OAuth2 and OpenID
         icon: lock
-        details: Encrypt you articles based on page links, so that only the one you want could see them
-        link: https://theme-hope.vuejs.press/guide/feature/encrypt.html
+        details: How to use OAuth2 and OpenID to authenticate your users and authorize requests
 
-      - title: Search
-        icon: search
-        details: Support docsearch and client search
-        link: https://theme-hope.vuejs.press/guide/feature/search.html
+      - title: Containers and orchestration
+        icon: fa-brands fa-docker
+        details: Improve my mastery of containers and orchestration with Docker and Kubernetes
 
-      - title: Code Block
+      - title: Polish my technology stack
         icon: code
-        details: Customize code block themes, line number, highlight lines, copy button, etc.
-        link: https://theme-hope.vuejs.press/guide/feature/code-block.html
+        details: Keep up with the latest technologies and improve my main stack
 
-      - title: Image Preview
-        icon: image
-        details: Support viewing, zooming, sharing your page images like a gallery
-        link: https://theme-hope.vuejs.press/guide/feature/photo-swipe.html
+      - title: Develop my career
+        icon: trophy
+        details: Strive to become a better developer and build a successful career
 
-  - header: Blogging
-    description: Create personal blog with theme
+  - header: Companies I have worked with
+    description: Retails and startups
     image: /assets/images/computer.svg
     highlights:
-      - title: Blog features
-        icon: blog
-        details: Listing your articles with their dates, tags and categories
-        link: https://theme-hope.vuejs.press/guide/blog/intro.html
+      - title: Leroy Merlin
+        icon: fa-solid fa-toolbox
+        details: French-headquartered home improvement and gardening retailer
+        link: https://www.leroymerlin.fr/
 
-      - title: Blog homepage
-        icon: blog
-        details: New blog homepage
-        link: https://theme-hope.vuejs.press/guide/blog/home.html
+      - title: Adeo
+        icon: fa-solid fa-cart-shopping
+        details: 3rd DIY retailer in the world (1st in Europe)
+        link: https://www.adeo.com/
 
-      - title: Blogger info
-        icon: circle-info
-        details: Customize avatar, name, slogan, introduction and social links
-        link: https://theme-hope.vuejs.press/guide/blog/blogger.html
+      - title: Norauto
+        icon: fa-solid fa-car
+        details: Pioneer of the auto centre concept in France
+        link: https://www.norauto.fr/
 
-      - title: Timeline
-        icon: clock
-        details: Read through blog posts in a timeline
-        link: https://theme-hope.vuejs.press/guide/blog/timeline.html
+      - title: Dewizz Affilizz
+        icon: fa-solid fa-money-bill
+        details: A simple and efficient way to monetize your website
+        link: https://en.affilizz.com/
 
-  - header: Advanced
-    description: Advanced features to improve site SEO and user experience
+  - header: Some recommendations
+    description: Useful sites, cool tools, and interesting articles
     image: /assets/images/bulb.svg
     bgImage: /assets/backgrounds/bg-banner.png
     bgImageDark: /assets/backgrounds/bg-banner-dark.png
     bgImageStyle:
       background-repeat: repeat
     highlights:
-      - title: SEO Enhancement
-        icon: dumbbell
-        details: Optimize pages for search engines
-        link: https://theme-hope.vuejs.press/guide/advanced/seo.html
+      
+      - title: TotalTypeScript
+        icon: fa-brands fa-js
+        details: A comprehensive production-grade TypeScript training with a focus on best practices
+        link: https://www.totaltypescript.com/
 
-      - title: Sitemap
-        icon: sitemap
-        details: Generate a Sitemap for your site
-        link: https://theme-hope.vuejs.press/guide/advanced/sitemap.html
+      - title: NinjaSquad
+        icon: fa-brands fa-angular
+        details: Courses and training on Angular, Vue.js, and other web technologies 
+        link: https://ninja-squad.fr/projects
+        
+      - title: The Pragmatic Developer
+        icon: book
+        details: From Journeyman to Master, a book that helps you improve your craft
+        link: https://www.amazon.fr/Pragmatic-Programmer-Journeyman-Master/dp/020161622X
 
-      - title: Feed
-        icon: rss
-        details: Generate feed to allow users to subscribe it
-        link: https://theme-hope.vuejs.press/guide/advanced/feed.html
+      - title: Baeldung
+        icon: fa-brands fa-java
+        details: Java, Spring and Web Development tutorials and articles regularly published and updated
+        link: https://www.baeldung.com/
 
-      - title: PWA
-        icon: mobile-screen
-        details: Make your site more like an APP
-        link: https://theme-hope.vuejs.press/guide/advanced/pwa.html
+      - title: Software Craftsmanship The New Imperative
+        icon: book
+        details: Craftsmanship is a way of thinking about software development, from which you should pick the practices that are most appropriate for you
+        link: https://www.amazon.fr/Software-Craftsmanship-Imperative-Pete-McBreen/dp/0201733862
 
 copyright: false
-footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
+footer: MIT Licensed, Copyright © 2024-present Adrien Deprez
 ---
-
-This is an example of a project homepage. You can place your main content here.
-
-To use this layout, you need to set `home: true` in the page front matter.
-
-For related descriptions of configuration items, please see [Project HomePage Layout Config](https://theme-hope.vuejs.press/guide/layout/home/).
-
-<g id="SvgjsG1210" featurekey="aMgJeN-0" transform="matrix(1.6730929445815823,0,0,1.6730929445815823,91.6522089916696,77.50199525721156)" fill="url(#SvgjsLinearGradient1217)"><path xmlns="http://www.w3.org/2000/svg" d="M47.495,62.192c-5.268-2.254-10.214-4.752-14.785-7.483c-1.702,1.702-4.004,2.764-6.545,2.764  c-0.526,0-1.033-0.075-1.537-0.162c-3.598,6.751-5.429,13.429-5.474,19.973c1.661,2.097,3.509,4.018,5.518,5.743  c7.979-2.768,16.039-7.675,23.873-14.618c-0.739-1.403-1.196-2.986-1.196-4.696C47.349,63.191,47.42,62.691,47.495,62.192z"></path><path xmlns="http://www.w3.org/2000/svg" d="M16.695,47.617c0-1.435,0.312-2.789,0.844-4.02c-2.16-1.965-4.168-3.995-5.998-6.09C10.395,41.459,9.771,45.651,9.771,50  c0,7.493,1.848,14.523,5.064,20.638c0.851-5.139,2.673-10.31,5.366-15.43C18.079,53.399,16.695,50.688,16.695,47.617z"></path><path xmlns="http://www.w3.org/2000/svg" d="M48.771,16.689c2.771,0,5.245,1.268,6.978,3.249c4.172-2.608,8.57-5.103,13.221-7.439C63.315,9.296,56.862,7.47,50.001,7.47  c-7.941,0-15.322,2.465-21.558,6.662c4.562,1.859,8.945,3.885,13.179,6.023C43.359,18.052,45.903,16.689,48.771,16.689z"></path><path xmlns="http://www.w3.org/2000/svg" d="M57.771,29.458c5.068,3.328,9.793,6.843,14.107,10.518c3.301-5.372,6.357-11.074,9.131-17.068  c-2.145-2.739-4.633-5.155-7.352-7.253c-5.566,2.684-10.807,5.576-15.686,8.642c0.162,0.726,0.27,1.472,0.27,2.248  C58.241,27.565,58.048,28.531,57.771,29.458z"></path><path xmlns="http://www.w3.org/2000/svg" d="M48.771,36.398c-1.918,0-3.7-0.605-5.193-1.631c-3.261,2.766-6.253,5.62-8.929,8.56c0.61,1.303,0.984,2.746,0.984,4.29  c0,1.158-0.228,2.255-0.582,3.288c4.347,2.588,9.021,4.989,14.048,7.134c1.717-2.522,4.526-4.184,7.718-4.184  c1.596,0,3.08,0.452,4.402,1.183c2.875-3.54,5.639-7.288,8.25-11.267c-4.232-3.625-8.889-7.101-13.904-10.39  C53.841,35.235,51.438,36.398,48.771,36.398z"></path><path xmlns="http://www.w3.org/2000/svg" d="M72.935,46.858c-2.637,3.978-5.414,7.741-8.311,11.292c1.047,1.584,1.664,3.498,1.664,5.562  c0,0.118-0.031,0.229-0.035,0.346c6.35,1.805,13.016,3.28,19.961,4.37c0.615-1.346,1.162-2.727,1.643-4.146  C83.94,58.279,78.933,52.418,72.935,46.858z"></path><path xmlns="http://www.w3.org/2000/svg" d="M56.817,73.564c-1.951,0-3.766-0.619-5.275-1.676c-7.334,6.49-14.89,11.322-22.45,14.396  c6.099,3.936,13.24,6.245,20.909,6.245c14.316,0,26.854-7.932,33.982-19.841c-6.555-1.096-12.859-2.541-18.898-4.271  C63.474,71.47,60.392,73.564,56.817,73.564z"></path><path xmlns="http://www.w3.org/2000/svg" d="M83.995,27.328c-2.65,5.503-5.533,10.761-8.623,15.738C80.8,48.054,85.509,53.283,89.39,58.66  c0.549-2.796,0.84-5.691,0.84-8.66C90.229,41.655,87.923,33.896,83.995,27.328z"></path><path xmlns="http://www.w3.org/2000/svg" d="M31.517,39.502c2.69-2.901,5.654-5.726,8.881-8.457c-0.676-1.356-1.095-2.872-1.095-4.501c0-0.808,0.119-1.579,0.296-2.33  c-4.906-2.458-10.047-4.745-15.4-6.829c-4.651,4.118-8.391,9.335-10.902,15.263c2.033,2.55,4.37,4.999,6.93,7.359  c1.63-1.381,3.679-2.243,5.939-2.243C28.151,37.764,29.992,38.409,31.517,39.502z"></path><circle xmlns="http://www.w3.org/2000/svg" cx="25.884" cy="47.311" r="4.675"></circle><circle xmlns="http://www.w3.org/2000/svg" cx="48.984" cy="26.41" r="4.675"></circle><circle xmlns="http://www.w3.org/2000/svg" cx="56.547" cy="63.673" r="4.675"></circle></g>

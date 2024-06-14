@@ -1,7 +1,7 @@
 ---
 home: true
 portfolio: true
-title: Portfolio Home
+title: Portfolio
 icon: user
 name: Adrien Deprez
 avatar: 'https://avatars.githubusercontent.com/u/23341059'
