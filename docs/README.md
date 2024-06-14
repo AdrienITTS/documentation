@@ -29,146 +29,141 @@ highlights:
       - title: Run <code>pnpm create vuepress-theme-hope hope-project</code> to create a new project with this theme.
       - title: Run <code>pnpm create vuepress-theme-hope add .</code> in your project root to create a new project with this theme.
 
-  - header: Add things you want in markdown
-    description: We extended the standard commonMark specification and added tons of new features for you.
+  - header: Languages and Frameworks
+    description: A list of the languages and frameworks I have experience with that I might talk about.
     image: /assets/images/user.svg
     bgImageStyle:
       background-repeat: repeat
     features:
-      - title: Links Check
-        icon: clipboard-check
-        details: Check markdown links
-        link: https://theme-hope.vuejs.press/guide/markdown/others.html#link-check
+      - title: Java
+        icon: fa-brands fa-java
+        details: Class-based, object-oriented programming language
+        link: https://www.java.com/fr/
 
-      - title: Hint box
-        icon: box-archive
-        details: Decorate Markdown content with styles
-        link: https://theme-hope.vuejs.press/guide/markdown/stylize/hint.html
+      - title: Spring
+        icon: fa-solid fa-leaf
+        details: Open-source framework for building modern applications
+        link: https://spring.io/
 
-      - title: GFM alerts
-        icon: bell
-        details: GFM alert box
-        link: https://theme-hope.vuejs.press/guide/markdown/stylize/alert.html
+      - title: SpringBoot
+        icon: fa-solid fa-power-off
+        details: Spring-based framework to create stand-alone, production-grade Applications
+        link: https://spring.io/projects/spring-boot
 
-      - title: Tabs
-        icon: table-columns
-        details: Group similar content with tabs and switch them together
-        link: https://theme-hope.vuejs.press/guide/markdown/content/tabs.html
+      - title: Maven
+        icon: fa-solid fa-feather
+        details: Build automation tool used primarily for Java projects
+        link: https://maven.apache.org/
+        
+      - title: HTML
+        icon: fa-brands fa-html5
+        details: Standard markup language for documents designed to be displayed in a web browser
+        link: https://developer.mozilla.org/fr/docs/Web/HTML
 
-      - title: Code Tabs
-        icon: code
-        details: Group similar codes with tabs
-        link: https://theme-hope.vuejs.press/guide/markdown/code/code-tabs.html
+      - title: CSS
+        icon: fa-brands fa-css3-alt
+        details: Style sheet language used for describing the presentation of a document written in HTML
+        link: https://developer.mozilla.org/fr/docs/Web/CSS
+        
+      - title: Javascript
+        icon: fa-brands fa-js
+        details: High-level, interpreted programming language for the web
+        link: https://developer.mozilla.org/fr/docs/Web/JavaScript
 
-      - title: Custom Align
-        icon: align-center
-        details: Let you decide to align paragraphs in the way you like
-        link: https://theme-hope.vuejs.press/guide/markdown/stylize/align.html
+      - title: Typescript
+        icon: fa-solid fa-t
+        details: Open-source language which builds on JavaScript by adding static type definitions
+        link: https://www.typescriptlang.org/
 
-      - title: Attrs
-        icon: code
-        details: Allow you to add attributes for Markdown content
-        link: https://theme-hope.vuejs.press/guide/markdown/stylize/attrs.html
+      - title: Vue.js
+        icon: fa-brands fa-vuejs
+        details: Open-source JavaScript framework for building user interfaces and single-page applications
+        link: https://vuejs.org/
 
-      - title: Superscript and subscript
-        icon: superscript
-        details: Inserting superscript and subscript
-        link: https://theme-hope.vuejs.press/guide/markdown/grammar/sup-sub.html
+      - title: Angular
+        icon: fa-brands fa-angular
+        details: TypeScript-based open-source web application framework
+        link: https://angular.dev/
 
-      - title: Footnote
-        icon: quote-left
-        details: Your Markdown now support footnotes
-        link: https://theme-hope.vuejs.press/guide/markdown/content/footnote.html
+      - title: Express
+        icon: fa-solid fa-e
+        details: Fast, unopinionated, minimalist web framework for Node.js
+        link: https://expressjs.com/fr/
 
-      - title: Mark
-        icon: highlighter
-        details: Mark and highlight contents
-        link: https://theme-hope.vuejs.press/guide/markdown/stylize/mark.html
+      - title: NestJS
+        icon: fa-solid fa-cat
+        details: Progressive Node.js framework for building efficient, reliable and scalable server-side applications
+        link: https://nestjs.com/
 
-      - title: Spoiler
-        icon: eraser
-        details: Mark spoiler contents
-        link: https://theme-hope.vuejs.press/guide/markdown/stylize/spoiler.html
+      - title: MongoDB
+        icon: fa-brands fa-envira
+        details: NoSQL database program, using JSON-like documents with optional schemas
+        link: https://www.mongodb.com/fr-fr
 
-      - title: Tasklist
-        icon: square-check
-        details: Use tasklist in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/grammar/tasklist.html
+      - title: PostgreSQL
+        icon: fa-solid fa-database
+        details: Open-source relational database management system
+        link: https://www.postgresql.org/
 
-      - title: Image syntax
-        icon: image
-        details: improve syntax to specify size and color scheme
-        link: https://theme-hope.vuejs.press/guide/markdown/grammar/image.html
+      - title: Redis
+        icon: fa-solid fa-registered
+        details: In-memory data structure store, used as a database, cache, and message broker
+        link: https://redis.io/fr/
 
-      - title: Component Support
-        icon: puzzle-piece
-        details: Easily insert components in Markdown
-        link: https://theme-hope.vuejs.press/guide/component/grammar.html
+      - title: Kafka
+        icon: fa-solid fa-code-branch
+        details: Distributed event streaming platform capable of handling trillions of events a day
+        link: https://kafka.apache.org/
 
-      - title: Components
-        icon: puzzle-piece
-        details: Common components out fo box
-        link: https://theme-hope.vuejs.press/guide/component/built-in.html
+      - title: Datadog
+        icon: fa-solid fa-dog
+        details: Monitoring service for cloud-scale applications
+        link: https://www.datadoghq.com/
 
-      - title: Chart Support
-        icon: chart-simple
-        details: Display charts in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/chart/chartjs.html
+      - title: Betterstack
+        icon: fa-solid fa-layer-group
+        details: Lets you see inside any stack, debug any issue, and resolve any incident
+        link: https://betterstack.com/
 
-      - title: Flowchart Support
-        icon: route
-        details: Create your flowchart in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/chart/flowchart.html
+      - title: Render
+        icon: fa-solid fa-r
+        details: Build, deploy, and scale your apps with unparalleled ease
+        link: https://render.com/
 
-      - title: Mermaid Support
-        icon: chart-pie
-        details: Add mermaid diagram in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/chart/mermaid.html
+      - title: Vercel
+        icon: fa-solid fa-v
+        details: Develop. Preview. Ship. all your frontend projects
+        link: https://vercel.com/
 
-      - title: Plantuml Support
-        icon: diagram-project
-        details: Add plantuml in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/chart/plantuml.html
+      - title: Git
+        icon: fa-brands fa-git
+        details: Distributed version-control system for tracking changes in source code during software development
+        link: https://www.git-scm.com/
 
-      - title: Tex Support
-        icon: square-root-variable
-        details: Markdown now have Tex Support so you can write your formula
-        link: https://theme-hope.vuejs.press/guide/markdown/grammar/tex.html
+      - title: Github
+        icon: fa-brands fa-github
+        details: Web-based version-control and collaboration platform for software developers
+        link: https://github.com/
 
-      - title: Include snippet Support
-        icon: fab fa-markdown
-        details: split your docs with different parts and import them in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/content/include.html
+      - title: Docker
+        icon: fa-brands fa-docker
+        details: Set of platform as a service products that use OS-level virtualization to deliver software in packages called containers
+        link: https://www.docker.com/
+        
+      - title: Kubernetes
+        icon: fa-solid fa-ship
+        details: Open-source container-orchestration system for automating computer application deployment, scaling, and management
+        link: https://kubernetes.io/fr/
 
-      - title: Playground Support
-        icon: code
-        details: You can add playground in Markdown files
-        link: https://theme-hope.vuejs.press/guide/markdown/code/playground.html
+      - title: GCP
+        icon: fa-brands fa-google
+        details: Cloud computing services that run on the same infrastructure that Google uses internally for its end-user products
+        link: https://cloud.google.com/?hl=fr
 
-      - title: Kotlin playground Support
-        icon: fab fa-kickstarter
-        details: Reactive kotlin playground
-        link: https://theme-hope.vuejs.press/guide/markdown/code/kotlin-playground.html
-
-      - title: Vue playground Support
-        icon: fab fa-vuejs
-        details: Show living vue component in playground
-        link: https://theme-hope.vuejs.press/guide/markdown/code/vue-playground.html
-
-      - title: Sandpack playground Support
-        icon: code
-        details: A live coding environment driven by Sandpack.
-        link: https://theme-hope.vuejs.press/guide/markdown/code/sandpack.html
-
-      - title: Code Demo Support
-        icon: laptop-code
-        details: You can insert code demo easily
-        link: https://theme-hope.vuejs.press/guide/markdown/code/demo.html
-
-      - title: Presentation Support
-        icon: person-chalkboard
-        details: Insert presentation in Markdown files via Reveal.js
-        link: https://theme-hope.vuejs.press/guide/markdown/content/revealjs.html
+      - title: Terraform
+        icon: fa-solid fa-t
+        details: Infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services
+        link: https://www.terraform.io/
 
   - header: Customizable UI
     description: Customizable outlook with full a11y support.
