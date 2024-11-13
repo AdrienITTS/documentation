@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="docs/.vuepress/public/images/logo-full-200x200.png" alt="adrienitts logo" width="200" height="200">
+    <img src="docs/.vuepress/public/logo.svg" alt="adrienitts logo" width="200" height="200">
 </p>
 
 # 💼 AdrienITTS's Documentation
